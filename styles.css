@@ -1,0 +1,245 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.introSection {
+  background-color: #248280;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  padding-bottom: 1%;
+}
+
+h1 {
+  font-family: "HarryPotter";
+  text-align: center;
+  font-size: 120px;
+  color: #191a19;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+h2 {
+  font-family: "HarryPotter";
+  font-size: 60px;
+  text-align: center;
+  color: #191a19;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.HarryPotterTitleImage {
+  display: block;
+  width: 20%;
+  margin: auto;
+}
+
+.startHeader{
+  padding-top: 30px;
+}
+
+h3 {
+  font-family: "Andada Pro", serif;
+  text-align: center;
+  font-size: 40px;
+  color: #39a4a4;
+}
+p {
+  font-family: "Andada Pro", serif;
+  text-align: center;
+  color: #191a19;
+  width: 50%;
+  margin: auto;
+}
+
+ul {
+  font-family: "Andada Pro", serif;
+  text-align: center;
+  color: #191a19;
+  width: 50%;
+  padding: 0;
+  margin: auto;
+}
+
+li {
+  list-style: none;
+  padding: 5px 0px;
+  /* color: #4E9F3D; */
+}
+
+/* li span{
+    color:#191A19;
+} */
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  background-color: transparent;
+  border-color: #284a4a;
+  opacity: 100;
+  border-width: 10px;
+  width: 50%;
+  margin: 5% auto 5% auto;
+}
+
+.housesText{
+padding-top: 20px;
+padding-bottom: 40px;
+}
+.carousel-inner{
+  display: flex;
+  justify-content: center;
+  padding-right: 15%;
+  margin: 0;
+}
+.housesImage{
+  width: 15%;
+}
+
+.card-group {
+  /* display: flex; */
+  width: 50%;
+  margin: auto;
+  padding: 3% 0;
+  /* padding-bottom: 8%; */
+  text-align: center;
+}
+
+
+
+.card{
+    margin: 0 1%;
+    border: none;
+}
+.card-header {
+  padding: 6% 0;
+  background-color: #248280;
+  border-style: solid;
+  border-color: #284a4a9a;
+  border-radius:6px;
+  z-index: 1;
+  width: 100%;
+}
+
+.card-body {
+    padding: 0;
+    border-style:solid;
+    border-radius: 2px;
+    border-color: #284a4a9a;
+}
+
+.card-footer{
+    background-color: none;
+    padding: 0;
+}
+
+.container {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.pricing-cards {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fas {
+  color: #284a4a;
+  font-size: 60%;
+}
+
+.price-card-button {
+  color: #eeeeee;
+  background-color: #248280;
+}
+
+.price-card-button:hover {
+  color: #eeeeee;
+  background-color: #21706f;
+}
+
+.btn-outline{
+    color: #284a4a;
+}
+
+.form-control:focus {
+    position: relative;
+    border-color: #184120;
+    box-shadow: 0 0 0 0.2rem #284a4a;
+    z-index: 1;
+  }
+
+  .footerSection{
+    background-color: #248280;
+    padding: 7% 0;
+  }
+
+  .footerText{
+    font-family: "HarryPotter";
+    text-align: center;
+    font-size: 40px;
+    color: #191a19;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .imgNima{
+    width: 1.5rem;
+  }
+
+  a{
+    text-decoration: none;
+    color: #DBEDF3;
+  }
+  
+  a:hover{
+    color: #a2b0b4;
+  }
+
+  iframe{
+    display:flex;
+    margin: auto;
+  }
+/* Defining Harry Potter Font */
+@font-face {
+  font-family: HarryPotter;
+  src: url(fonts/HarryPotter.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+/* Small screen devices  */
+@media only screen and (max-width: 900px) {
+  p {
+    width: 90%;
+  }
+  
+  ul {
+    width: 90%;
+  }
+
+  .card-group {
+    /* display: flex; */
+    width: 70%;
+  }
+  .carousel-inner{
+    padding-right: 29%;
+
+  }
+  .housesImage{
+    width: 35%;
+  }
+  iframe{
+    display:flex;
+    margin: auto;
+    width: 100%
+  }
+}

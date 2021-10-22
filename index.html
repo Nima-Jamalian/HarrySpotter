@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fav Icon -->
+    <link rel="icon" href="images/favicon.ico">
+    <title>Harry Spotter</title>
+    <!-- BootStrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <!-- Sweetalert 2 -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" href="sweetalert2.min.css">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Andada+Pro:wght@500&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/e701c60fc2.js" crossorigin="anonymous"></script>
+    <!-- SmtpJS -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+
+<body>
+    <script>
+
+    </script>
+    <div class="introSection">
+        <h1>Harry Spotter</h1>
+        <img class="HarryPotterTitleImage" src="images/Harry Spotter Black And White Version1.png"
+            alt="Harry Potter Logo">
+    </div>
+    <div class="aboutSection">
+        <h3 class = "startHeader">About</h3>
+        <p class="about">Harry Spotter is location based AR game, Nima Jamalian internship project in Nokia Bell Labs UK.
+        </p>
+        <hr class="hrLine">
+        <h3>Idea 💡</h3>
+        <p>The goal of the app is to make crowd sourcing more fun by using gamification elements 🎮
+            in the app users need to take picture from objects around them and label them.
+            This help us to understand how we has humans view the objects around us. 🌎
+        </p>
+        <hr>
+        <h3>How it work!</h3>
+        <ul>
+            <li>When you first open the application you need to create an account.</li>
+            <li>Then you answer series of personality questions, based on your answer you get assign into one of
+                    the Harry Potter houses!</li>
+            <li>You gain point in the game by taking picture of object 📷 and labelling them,</li>
+            <li>Your points will help you team in the leaderboard and you can use to take territories for your
+                    team!</li>
+            <li>In the main screen of the app, you see a map and there would be highlighted location near you. You
+                    can take over these locations and help you team!</li>
+            <li>Once you are in close range of highlighted location, you can fight the AR wizard which will appear
+                    in front of you! 🧙</li>
+        </ul>
+        <hr>
+        <h3>Harry Potter Houses 🪄</h3>
+        <p class = "housesText"> Found out which house you belong to through Harry Spotter app.
+        </p>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class ="housesImage" src="images/Gyffindor House.png" alt="Gyffindor House">
+              </div>
+              <div class="carousel-item">
+                <img class ="housesImage" src="images/Slytherin House.png" alt="Slytherin House">
+              </div>
+              <div class="carousel-item">
+                <img class ="housesImage" src="images/Hufflepuff House.png" alt="Hufflepuff House">
+              </div>
+              <div class="carousel-item">
+                <img class ="housesImage" src="images/Ravenclaw House.png" alt="Ravenclaw House">
+              </div>
+            </div>
+          </div>
+        <hr>
+        <h3>Join us! ✋</h3>
+        <ul>
+            <li>We are recruiting users to join our experiment. Your help will be greatly appreciated 🙏
+            </li>
+            <li>The experiment in total would take less than 15 minutes of your time.</li>
+            <li>All you need to do is to take 5 pictures of object around you everyday for a period of one
+                    week.</li>
+            <li>Takes only 2-3 minutes of your time each day.</li>
+        </ul>
+
+        <div class="card-group">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title">For All You Android Users <i class="fab fa-android"></i></h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">
+                        <li><i class="fas fa-circle"></i></i> Download the application from the link bellow. </li>
+                        <li><i class="fas fa-circle"></i></i> Simply open this website on your mobile phone and click on
+                            download.</li>
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <button type="button" class="w-100 btn btn-lg  price-card-button  andriodButton"> Download APK</button>
+                  </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title">For All You iOS Users <i class="fab fa-apple"></i></h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">
+                        <li class="test"><i class="fas fa-circle"></i> Complete the form bellow.</li>
+                            <li><i class="fas fa-circle"></i> We will add you to our internal testing team over the next 24 hours. Once you have been added to the internal testing team you will received an email from Apple asking you if you want to join the team, you need to confirm that email.</li>
+                    </p>
+                </div>
+                <!-- <div class="card-footer">
+                          <div>
+                            <div class="col-xs-10">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" value="Enter iCloud Email" />
+                                     <button type="submit" class="btn btn-lg price-card-button  submmitButton">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                      
+                  </div>-->
+            </div> 
+        </div>
+<div class = "googleForm">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScENFktDmAokbFPHaLY9vxMSb-lQaYgWsOf7G9cXf9GxR81qg/viewform?embedded=true" width="640" height="900" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
+        <footer class = "footerSection">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+            <script src="index.js"></script>
+
+            <p class= "footerText">Made by <img class ="imgNima" src="images/nimaphoto.png" alt=""><a href="https://nima-jamalian.github.io/CV/" target="_blank"> Nima Jamalian</a></p>
+        </footer>
+</body>
+
+</html>
